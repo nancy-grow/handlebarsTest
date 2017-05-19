@@ -4,10 +4,10 @@
 define(['jquery','handlebars'], function ($,handlebars) {
     var data = {};
     var myTemplate = handlebars.compile($('#table-template').html());
-    // handlebars.registerHelper('addOne',function (index) {
-    //     this._index = index + 1;
-    //     return this._index;
-    // });
+    handlebars.registerHelper('addOne',function (index) {
+        this._index = index + 1;
+        return this._index;
+    });
      handlebars.registerHelper('compare',function (v1,v2,options) {
          if(v1>v2){
              return options.fn(this);
