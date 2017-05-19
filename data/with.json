@@ -3,14 +3,14 @@
       "name":"张三",
       "sex":"0",
       "age":38,
-      "family":[
+      "favorite":[
         {
-          "name":"张三的儿子",
+          "name":"唱歌",
           "sex":"男",
           "age":10
         },
         {
-          "name":"张三的女儿",
+          "name":"篮球",
           "sex":"女",
           "age":10
         }
@@ -20,9 +20,9 @@
       "name":"李四",
       "sex":"0",
       "age":58,
-      "family":[
+      "favorite":[
         {
-          "name":"李四的儿子",
+          "name":"上网",
           "sex":"男",
           "age":26
         }
